@@ -2,13 +2,13 @@
 
 # Enable flathub
 function flatpak.flathub {
-  flatpak remote-add \
+  flatpak remote-add -y \
     --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 }
 
 # Install applications from flatpak
 function flatpak.install {
-  flatpak install \
+  flatpak install -y \
     com.bitwarden.desktop \
     com.discordapp.Discord \
     com.slack.Slack \

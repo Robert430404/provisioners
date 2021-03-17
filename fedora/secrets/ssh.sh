@@ -1,1 +1,1 @@
-function ssh.install {}
+#!/bin/bash
